@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CodeQuest: JavaScript Adventure</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="game-container">
+    <h1>CodeQuest: JavaScript Adventure</h1>
+    <div id="story">
+      <p id="story-text">You find yourself trapped in a corrupted AI system. Solve coding challenges to escape!</p>
+    </div>
+
+    <div id="challenge-container">
+      <h2>Current Challenge:</h2>
+      <p id="challenge-text">Write a function to unlock the door:</p>
+      <code>
+        function unlockDoor() {
+          // Your code here
+        }
+      </code>
+    </div>
+
+    <div id="input-container">
+      <textarea id="code-input" placeholder="Enter your code here..."></textarea>
+      <button id="submit-code">Run Code</button>
+    </div>
+
+    <div id="result-container">
+      <h2>Result:</h2>
+      <pre id="result-output"></pre>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
